@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>JavaScript Fundamentals Playground</h1>
+        <p id="status">Ready.</p>
+        <button id="toggle-theme">Toggle Theme</button>
+    </header>
+
+    <main>
+        <section>
+            <h2>Part 1: Variables & Conditionals</h2>
+            <form id="intro-form">
+                <label>
+                    Name: <input id="name-input" type="text" placeholder="Ada" required>
+                </label>
+                <label>
+                    Age: <input id="age-input" type="number" min="0" placeholder="18" required>
+                </label>
+                <button type="submit">Greet</button>
+            </form>
+            <p id="greeting"></p>
+        </section>
+
+        <section>
+            <h2>Part 3 & 4: Loops & DOM Interactions</h2>
+            <div>
+                <h3>Generate a List</h3>
+                <button id="generate-list">Create List</button>
+                <ul id="dynamic-list"></ul>
+            </div>
+            <hr>
+            <div>
+                <h3>Start a Countdown</h3>
+                <button id="start-countdown">Start</button>
+                <p id="countdown-output"></p>
+            </div>
+            <hr>
+            <div>
+                <h3>Add New Notes</h3>
+                <button id="add-note">Add a Note</button>
+                <div id="notes"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <small>Built for learning — pure HTML/CSS/JS.</small>
+    </footer>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
